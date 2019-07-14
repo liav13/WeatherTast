@@ -1,0 +1,8 @@
+body{
+    width:80%;
+    margin: 10px auto; 
+    color: $primaryColor;
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'work sans', sans-serif;
+    justify-content: space-between;
+}

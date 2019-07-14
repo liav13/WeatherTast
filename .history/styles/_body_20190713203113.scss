@@ -1,0 +1,10 @@
+body{
+    width:80%;
+    margin: 10px auto; 
+    color: $primaryColor;
+    font-family: 'work sans', sans-serif;
+
+    @include respond-phone{
+        font-size:50%;
+    }
+}

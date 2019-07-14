@@ -1,0 +1,16 @@
+$primaryColor: white;
+$backgroundImg:url("/img/sky.png") ;
+$searchBoxColor:#69a2ff;
+$searchBoxText:#003a99;
+
+@import "/styles/searchBox.scss";
+@import "./backgroundimg";
+@import "/styles/searchBox.scss";
+
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    };
+
+

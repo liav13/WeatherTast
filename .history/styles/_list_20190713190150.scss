@@ -1,0 +1,35 @@
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+   
+ 
+}
+
+.box{
+    width:200px;
+    height:300px;     
+}
+
+.weater{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    height:250px;  
+    border: 1px solid $BoxBackgroundColor;
+    background-color: $backgroundColorList;
+}
+
+li{
+   
+    list-style-type: none;
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.secdgrs{
+    font-size:30px;
+}

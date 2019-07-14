@@ -1,0 +1,128 @@
+body {
+  width: 80%;
+  margin: 10px auto;
+  color: white;
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+  font-family: "work sans", sans-serif;
+  justify-content: space-between;
+}
+
+header {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  background-color: #3884ff;
+  border: 1px solid #003a99;
+}
+
+input[type=text] {
+  color: #003a99;
+  font-weight: bold;
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #003a99;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #003a99;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #003a99;
+}
+
+body {
+  background-color: black;
+  background-image: url("../img/sky.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.section {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.section__box {
+  height: 30%;
+  width: 20%;
+  min-height: 200px;
+  min-width: 150px;
+}
+
+.section__weather {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  border: 1px solid #3884ff;
+  background-color: rgba(50, 115, 220, 0.3);
+}
+
+.section__day {
+  margin-left: 15%;
+}
+
+li {
+  list-style-type: none;
+  font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+img {
+  width: 60%;
+  height: 60%;
+}
+
+.section__font--second {
+  font-size: 2em;
+}
+
+.section__font--main {
+  font-size: 55px;
+}
+
+h5 {
+  margin-top: -10px;
+  font-weight: normal;
+}
+
+.section__location {
+  margin-top: 5%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 460px) {
+  section {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 12.5%;
+  }
+
+  .section__box {
+    margin-top: 5%;
+    height: 25%;
+    width: 80%;
+    min-height: 15%;
+    min-width: 10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+
+
+body{
+    @include flexCenter();
+    background-color:black;
+    background-image: $backgroundImg;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}

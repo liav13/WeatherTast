@@ -1,0 +1,19 @@
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+   
+ 
+}
+
+.box{
+    width:200px;
+    height:300px; 
+    border: 1px solid $BoxBackgroundColor
+    
+}
+li{
+   
+    list-style-type: none;
+    
+}

@@ -1,0 +1,17 @@
+section{
+  display: flex;
+  flex-direction: row;
+//   justify-content: center;
+  align-items: flex-end;
+}
+
+.box{
+    width:200px;
+    height:300px; 
+    
+}
+li{
+   
+    list-style-type: none;
+    
+}

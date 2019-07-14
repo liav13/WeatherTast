@@ -1,0 +1,30 @@
+input{
+    position: absolute;
+    top:10;
+    right:10;
+    width:200px;
+    height:30px;
+    background-color:$searchBoxColor;  
+    border:1px solid $searchBoxText;
+}
+
+input[type=text]{
+    color: $searchBoxText;
+    font-weight: bold;
+    font-size:10px;
+    padding-left:10px; 
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $searchBoxText;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $searchBoxText;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: $searchBoxText;
+  }
+  

@@ -1,0 +1,36 @@
+input {
+  width: 200px;
+  height: 30px;
+  background-color: #69a2ff;
+  border: 1px solid #003a99;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #003a99;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #003a99;
+  opacity: 1;
+  /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #003a99;
+  opacity: 1;
+  /* Firefox */
+}
+
+
+body {
+  background-color: black;
+  background-image: url("/img/sky.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/*# sourceMappingURL=style.css.map */

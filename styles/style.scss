@@ -1,0 +1,13 @@
+$primaryColor: white;
+$backgroundImg:url("../img/sky.png") ;
+$BoxBackgroundColor:#3884ff;
+$searchBoxText:#003a99;
+$backgroundColorList:rgba(50, 115, 220, 0.3);;
+
+@import "./body";
+@import "./searchbox";
+@import "./backgroundimg";
+@import "./list";
+@import "./location";
+@import "./mediaQueries";
+

@@ -1,0 +1,13 @@
+$primaryColor: white;
+$backgroundImg:url("/img/sky.png") ;
+
+
+@import "./backgroundimg";
+
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    };
+
+

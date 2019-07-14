@@ -1,0 +1,9 @@
+$primaryColor: white;
+$backgroundImg:url("/img/sky.png") ;
+body{
+    background-color:black;
+}
+*{
+    color: $primaryColor;
+    background-image: $backgroundImg;
+}

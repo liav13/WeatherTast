@@ -1,0 +1,13 @@
+$primaryColor: white;
+$backgroundImg:url("/img/sky.png") ;
+
+*{
+    color: $primaryColor;
+}
+
+body{
+    background-color:black;
+    background-image: $backgroundImg;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
